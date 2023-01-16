@@ -11,6 +11,6 @@ this a repository has been built with webpack to support hot module reloading an
 ### open the devtools console and follow guided instruction comments in the problems folder in /src/problems
 
 ## Notes
-be sure to git ==> hahha ===> atleast one commit in per problem solved.
+be sure to git atleast one commit per problem solved.
 dont mess with test code at botton of file
 you will no you have completed when browser window has all successful test suites
