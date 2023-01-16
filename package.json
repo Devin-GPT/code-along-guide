@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev-server": "webpack-dev-server --env=development --hot"
+    "dev-server": "webpack-dev-server --env=development "
   },
   "keywords": [],
   "author": "",
