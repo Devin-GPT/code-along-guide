@@ -29,20 +29,13 @@ import { logger } from '../index';
 // If tests are not passing checkout examples directory for some resources
 
 const problem2 = () => {
+
   const ObjectOfMethods = {
-    method2: (array, cb) => {
-      const arr = [];
-      for (let i = 0; i < array.length; i++) {
-        arr.push(cb(array[i], i, array));
-      }
-      return arr;
-    },
+
   };
+
   const ObjectOfCallBacks = {
-    callBack2: (item, index, array) => {
-      console.log(item, index, array);
-      return item + 5;
-    },
+    
   };
 
   //TEST DO NOT CHANGE

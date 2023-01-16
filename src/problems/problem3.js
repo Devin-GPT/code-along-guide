@@ -24,35 +24,24 @@ import { logger } from '../index';
 //         -second Param will index
 //         -third Param will be array
 // (11) - function body should check if() {item is even number} ===> https://stackoverflow.com/questions/35786372/checking-if-number-is-even-in-javascript
-// (12) - if even function body should return item 
+// (12) - if even function body should return item
 // (13) - if not even function body should do nothing so stop at step above
-
 
 // Save file and check browser for passing test
 // If tests are not passing checkout examples directory for some resources
 
 const problem3 = () => {
   const ObjectOfMethods = {
-    method3: (array, cb) => {
-      const arr = [];
-      for (let i = 0; i < array.length; i++) {
-        if (cb(array[i], i, array)) {
-          arr.push(cb(array[i], i, array));
-        }
-      }
-      return arr;
-    },
+    
   };
   const ObjectOfCallBacks = {
-    callBack3: (item, index, array) => {
-      console.log(item, index, array);
-      if(item %2 ===0){
-        return item
-      }
-    },
+    
   };
   //TEST DO NOT CHANGE
-  const recieved = ObjectOfMethods.method3([1,2,3,4,5,6,7,8,9,10], ObjectOfCallBacks.callBack3);
+  const recieved = ObjectOfMethods.method3(
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    ObjectOfCallBacks.callBack3
+  );
   const expected = [2, 4, 6, 8, 10];
   const problem = '3';
 
@@ -60,4 +49,4 @@ const problem3 = () => {
 
   return JSON.stringify(recieved) == JSON.stringify(expected);
 };
-export default problem3
+export default problem3;
