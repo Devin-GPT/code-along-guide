@@ -4,7 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev-server": "webpack-dev-server --env=development "
+    "dev-server": "webpack-dev-server --env=development",
+    "build": "webpack",
+    "clean": "rm -rf ./dist"
   },
   "keywords": [],
   "author": "",
