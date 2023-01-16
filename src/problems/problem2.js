@@ -39,7 +39,7 @@ const problem2 = () => {
   };
 
   //TEST DO NOT CHANGE
-  const recieved = ObjectOfMethods.method2([1, 2, 3, 4, 5], ObjectOfCallBacks.callBack2);
+  const recieved =  ObjectOfMethods.method2 ? ObjectOfMethods.method2([1, 2, 3, 4, 5], ObjectOfCallBacks.callBack2) : null
   const expected = [6, 7, 8, 9, 10];
   const problem = '2';
 

@@ -38,10 +38,10 @@ const problem3 = () => {
     
   };
   //TEST DO NOT CHANGE
-  const recieved = ObjectOfMethods.method3(
+  const recieved =  ObjectOfMethods.method3 ? ObjectOfMethods.method3(
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     ObjectOfCallBacks.callBack3
-  );
+  ) : null
   const expected = [2, 4, 6, 8, 10];
   const problem = '3';
 

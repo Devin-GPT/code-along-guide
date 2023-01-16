@@ -29,7 +29,7 @@ const problem = '1';
 // If tests are not passing checkout examples directory for some resources
 
 const problem1 = () => {
-  
+
   const ObjectOfMethods = {
   
   };
@@ -39,7 +39,7 @@ const problem1 = () => {
   };
 
   // Changes should be made above this comment
-  ObjectOfMethods.method1([1, 2, 3, 4, 5], callBack1);
+  ObjectOfMethods.method1 ? ObjectOfMethods.method1([1, 2, 3, 4, 5], callBack1) : null
 
   logger(recieved, expected, problem);
 
