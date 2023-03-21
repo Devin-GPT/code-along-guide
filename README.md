@@ -1,5 +1,7 @@
 # Barebones JS
 
+This repo is a quick webpack bootstrap for ui around simple testining result for mentoring.
+
 this a repository has been built with webpack to support hot module reloading and an out of the box development envierment with an out of the box HMR server.
 
 ## Getting started
